@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado h1, h2 e imagen*/
+h1 {
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-centro {
+    text-emphasis: none;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 250%;
+}
+
+/*Estilos para el input de búsqueda*/
+#inputBusqueda {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*Estilos para la lista de resultados*/
+#resultados {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Estilos para los elementos de la lista de resultados*/
+#resultados li {
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+/*Estilos para los elementos del footer*/
+footer {
+    background-color: aquamarine;
+    width: auto;
+    padding: 1%;
+}
